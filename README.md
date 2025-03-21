@@ -1,13 +1,13 @@
-# 🛡️ Slowloris DoS Attack Automation
+#  Slowloris DoS Attack Automation
 
 ## 🔧 Installation & Setup
-### ** 1️ Clone the Repository**
+###  1️ Clone the Repository
 ```bash
 git clone https://github.com/your-username/Slowloris-Attack.git
 cd Slowloris-Attack
 ```
 
-### ** 2️ Install Required Dependencies**
+###  2️ Install Required Dependencies
 ```bash
 pip install requests
 ```
@@ -15,20 +15,20 @@ pip install requests
 ---
 
 ##  Usage Guide
-### **Basic Attack Command**
+### Basic Attack Command
 ```bash
 python slowloris.py <target> -p <port> -c <connections> -i <interval>
 ```
-### **Example**
+### Example
 ```bash
 python slowloris.py 127.0.0.1 -p 8080 -c 100 -i 10
 ```
-🔹 **127.0.0.1** → Target server (localhost for testing)  
-🔹 **8080** → Target port  
-🔹 **100 connections** → Number of concurrent attack threads  
-🔹 **10 sec interval** → Time between partial request sends  
+🔹 127.0.0.1 → Target server (localhost for testing)  
+🔹 8080 → Target port  
+🔹 100 connections → Number of concurrent attack threads  
+🔹 10 sec interval → Time between partial request sends  
 
-### **Available Command-Line Options**
+### Available Command-Line Options
 | Option            | Description                                  | Default |
 |------------------|----------------------------------------------|---------|
 | `<target>`       | Target server IP or domain                   | -       |
