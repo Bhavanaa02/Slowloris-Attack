@@ -72,5 +72,3 @@ Servers can **prevent Slowloris attacks** by:
   
 This project is for **educational use only**.
 ```
-
----
