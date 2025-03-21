@@ -3,7 +3,7 @@
 ## 🔧 Installation & Setup
 ###  1️ Clone the Repository
 ```bash
-git clone https://github.com/your-username/Slowloris-Attack.git
+git clone https://github.com/Bhavanaa02/Slowloris-Attack.git
 cd Slowloris-Attack
 ```
 
